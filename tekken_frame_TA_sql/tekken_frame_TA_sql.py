@@ -1,3 +1,6 @@
+#Scraping TOOLASSISTED website for tekken frame data
+#Use functions defined in "tekken_frame_sql_helpers"
+
 from selenium import webdriver
 from bs4 import BeautifulSoup
 import tekken_frame_sql_helpers as sql_helpers
